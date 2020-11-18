@@ -6,10 +6,4 @@ const iterador = () => {
     } 
 }
 
-
-
-
-
-
-
 iterador()
