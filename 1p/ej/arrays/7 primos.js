@@ -1,7 +1,0 @@
-const primos = () => {
-
-
-
-
-}
-primos ()
