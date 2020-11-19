@@ -1,0 +1,7 @@
+const primos = () => {
+
+
+
+
+}
+primos ()

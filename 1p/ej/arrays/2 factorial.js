@@ -1,3 +1,4 @@
+var x = [];
 function factorialize(num) {
     if (num < 0) 
           return -1;
@@ -8,9 +9,10 @@ function factorialize(num) {
     }
   }
   
-  const iterador = () => { 
+  const factorial = () => { 
       for(var i=0; i < 10; i++){
-          console.log(factorialize(i))
+          x = (factorialize(i))
+          console.log (x);
       } 
   }
-  iterador()
+  factorial()
