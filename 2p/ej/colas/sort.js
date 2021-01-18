@@ -82,7 +82,7 @@ function collect(queues, nums) {
     }
 }
 
-//Programa principal 
+
 var queues = [];
 for (var i = 0; i < 12; ++i) {
     queues[i] = new Queue();
