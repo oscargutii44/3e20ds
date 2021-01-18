@@ -73,39 +73,6 @@ console.log(queue.print());
 
 
 
-// let pac = new Paciente("Jorge",3);  //Registramos los pacientes
-// const emer = new Queue(); // Creamos una cola
-
-// emer.enqueue(pac);  // Comenzamos a meter a los pacientes a la cola
-// pac = new Paciente("Pepe", 4);
-// emer.enqueue(pac);
-// pac = new Paciente("Francisco", 2);
-// emer.enqueue(pac);
-// pac = new Paciente("Sergio", 1);
-// emer.enqueue(pac);
-// pac = new Paciente("Lucy", 1);
-// emer.enqueue(pac);
-
-// console.log(emer.print());   
-// let vistos = emer.dequeue();    // Sacamos con el metodo dequeque por prioridad de codigo y lo guardamos en vistos
-
-// console.log("Paciente que ha sido tratado: " + vistos[0].name); //Mostramos el paciente que sacamos por prioridad
-// console.log("Pacientes esperando a ser atendidos: ")        //Mostramos los pacientes que faltan de ser atendidos
-// console.log(emer.print());
-
-// vistos = emer.dequeue();
-// console.log("Paciente que ha sido tratado: " + vistos[0].name);
-// console.log("Pacientes esperando a ser atendidos: ")
-// console.log(emer.print());
-
-// vistos = emer.dequeue();
-// console.log("Paciente que ha sido tratado: " + vistos[0].name);
-// console.log("Pacientes esperando a ser atendidos: ")
-// console.log(emer.print());
-
-
-
-
 
 
 // const queue = new Queue();
