@@ -14,13 +14,13 @@ function bubble(arr) {
                 //console.log(arr) - cada que hay un cambio
             }
         }
-       console.log(arr)// - cada recorrido de k
+       //console.log(arr)// - cada recorrido de k
     }
 
 }
 
 console.log('arreglo original')
 console.log(arr)// before sorting
-console.log('recorrido de k')
+console.log('arreglo ordenado')
 bubble(arr)//llamada a funcion
 console.log(arr)
