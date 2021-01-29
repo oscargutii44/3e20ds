@@ -40,20 +40,3 @@ console.log(isConnected(connectedMatrix));
 console.log(isConnected(disconnectedMatrix));
 console.log(isDisconnected(disconnectedMatrix));
 console.log(isDisconnected(connectedMatrix));
-
-
-
-
-
-
-/* //INTENTO DE CÓDIGO SIN SUMAR.
-function isConnected(g) {
-    for (let r = 0; r < g.length; r++) {
-        for (let c = 0; c < g.length; c++) {
-            let on = false;
-            let elemento = g[r][c]
-            if ( elemento != 0) {on = true}                 
-        }
-    }
-}
-*/
